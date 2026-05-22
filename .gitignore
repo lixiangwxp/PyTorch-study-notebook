@@ -118,3 +118,13 @@ Temporary Items
 
 # sphinx
 /build
+
+# Notebook runtime artifacts
+__pycache__/
+.ipynb_checkpoints/
+*.pkl
+*.pth
+FashionMNIST/
+notebook/**/FashionMNIST/
+notebook/第六章 PyTorch进阶训练技巧/data/
+notebook/第十章 常见网络代码的解读/data/

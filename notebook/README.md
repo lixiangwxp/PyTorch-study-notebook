@@ -9,3 +9,17 @@
 - 第八章 PyTorch生态简介
 
 后续演示代码均会添加进来
+
+## 本地运行环境
+
+本仓库已配置独立的 conda 环境文件 `environment.yml`，推荐使用下面的方式重建环境：
+
+```shell
+# 在仓库根目录运行
+conda env create -f environment.yml
+conda activate pytorch-study-notebook
+python -m ipykernel install --user --name pytorch-study-notebook --display-name "PyTorch Study Notebook"
+jupyter lab
+```
+
+打开 notebook 后，选择 `PyTorch Study Notebook` 内核即可运行。环境中已包含 PyTorch、torchvision、torchtext、timm、imgaug、visdom 和常用 Jupyter 依赖；其中 `numpy<2` 与 `opencv-python<4.12` 是为了兼容旧版 `imgaug`。

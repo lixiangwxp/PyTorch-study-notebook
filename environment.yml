@@ -1,0 +1,36 @@
+name: pytorch-study-notebook
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - "setuptools<81"
+  - wheel
+  - pip:
+      - "numpy<2"
+      - "torch==2.3.1"
+      - "torchvision==0.18.1"
+      - "torchaudio==2.3.1"
+      - "torchtext==0.18.0"
+      - "torchdata==0.7.1"
+      - portalocker
+      - pandas
+      - matplotlib
+      - scikit-learn
+      - pillow
+      - tqdm
+      - imageio
+      - "opencv-python<4.12"
+      - scipy
+      - scikit-image
+      - shapely
+      - "imgaug==0.4.0"
+      - "timm==0.9.16"
+      - "huggingface_hub<1.0"
+      - safetensors
+      - "visdom==0.2.4"
+      - ipykernel
+      - "jupyterlab<5"
+      - notebook
+      - nbconvert
+      - ipywidgets
