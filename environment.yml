@@ -29,6 +29,9 @@ dependencies:
       - "huggingface_hub<1.0"
       - safetensors
       - "visdom==0.2.4"
+      - onnx
+      - onnxruntime
+      - tensorboard
       - ipykernel
       - "jupyterlab<5"
       - notebook

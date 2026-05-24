@@ -1,12 +1,18 @@
 该文件夹记录了演示使用的notebook，包括以下内容：
 - 第零章 前置知识补充
+- 第一章 PyTorch的简介和安装（由 `source/` 正文整理的教学练习版）
 - 第二章 PyTorch基础知识
+- 第三章 PyTorch的主要组成模块（由 `source/` 正文整理的教学练习版）
 - 第四章 PyTorch基础实战
   - 图像分类
     - fashion-mnist分类实战
     - 果蔬分类实战
+- 第五章 PyTorch模型定义（由 `source/` 正文整理的教学练习版）
 - 第六章 PyTorch进阶训练技巧
+- 第七章 PyTorch可视化（由 `source/` 正文整理的教学练习版）
 - 第八章 PyTorch生态简介
+- 第九章 PyTorch的模型部署（由 `source/` 正文整理的教学练习版）
+- 第十章 常见网络代码的解读
 
 后续演示代码均会添加进来
 
